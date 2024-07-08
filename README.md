@@ -37,7 +37,7 @@ Ensure you have the following installed on your local machine:
 
 
 
-1. Clone the Repository
+#### 1. Clone the Repository
 ```sh
 git clone https://github.com/erjonb19/RAG-GPT.git
 cd RAG-GPT
