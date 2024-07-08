@@ -43,6 +43,7 @@ git clone https://github.com/erjonb19/RAG-GPT.git
 cd RAG-GPT
 
 2. Install Dependencies
+```sh
 pip install gradio==4.13.0 langchain==0.0.354 openai==0.28.0 chromadb==0.4.22 pypdf==3.17.4 pandas==2.1.4
 3. Set Up and Activate Virtual Environment
 python3 -m venv projectenv
