@@ -37,19 +37,44 @@ Ensure you have the following installed on your local machine:
 
 
 
-#### 1. Clone the Repository
+1. Clone the Repository
 ```sh
 git clone https://github.com/erjonb19/RAG-GPT.git
 cd RAG-GPT
+```
 
 
-#### 2. Install Dependencies
+
+2. Install Dependencies
 ```sh
 pip install gradio==4.13.0 langchain==0.0.354 openai==0.28.0 chromadb==0.4.22 pypdf==3.17.4 pandas==2.1.4
+```
+
+
+
 3. Set Up and Activate Virtual Environment
+```sh
 python3 -m venv projectenv
 source projectenv/bin/activate # On macOS/Linux
 .\projectenv\Scripts\activate # On Windows
-4.**Running the Project**
+```
+
+
+
+4. Running the Project
+```sh
 python src/serve.py
 python src/raggpt_app.py
+```
+
+
+
+## Usage
+
+
+
+Once the project is running, open your web browser and navigate to the local server address provided in the terminal. You can then interact with the RAG-GPT interface to upload and process documents, adjust settings, and retrieve content directly within the chat interface.
+
+
+
+For more details and advanced usage, refer to the project documentation and help files included in the repository.
